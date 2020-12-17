@@ -39,6 +39,8 @@ license: CC-BY-4.0
 name: Excitatory and inhibitory subnetworks are equally selective during decision-making
   and emerge simultaneously during learning
 number_of_subjects: 4
+organism:
+- species: Mus musculus
 publications:
 - identifier: DOI:10.1101/354340
   url: https://doi.org/10.1101/354340
