@@ -5,18 +5,26 @@
 access:
 - status: dandi:OpenAccess
 assetsSummary:
-  approach: []
+  approach:
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  - name: behavioral approach
+    schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
-  measurementTechnique: []
+  measurementTechnique:
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
   numberOfBytes: 62572042499
   numberOfFiles: 135
   numberOfSubjects: 4
   schemaKey: AssetsSummary
   species: []
-  variableMeasured: []
+  variableMeasured:
+  - BehavioralTimeSeries
+  - PlaneSegmentation
 citation: Najafi, Farzaneh; Churchland, Anne K. (2021) Excitatory and inhibitory subnetworks
   are equally selective during decision-making and emerge simultaneously during learning
   (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000016/draft
