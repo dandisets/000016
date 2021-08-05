@@ -61,7 +61,8 @@ id: DANDI:000016/draft
 identifier: DANDI:000016
 license:
 - spdx:CC-BY-4.0
-manifestLocation: []
+manifestLocation:
+- https://api.dandiarchive.org/api/dandisets/000016/versions/draft/assets/
 name: Excitatory and inhibitory subnetworks are equally selective during decision-making
   and emerge simultaneously during learning
 relatedResource:
