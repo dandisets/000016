@@ -34,8 +34,8 @@ assetsSummary:
   variableMeasured:
   - BehavioralTimeSeries
   - PlaneSegmentation
-citation: Najafi, Farzaneh; Churchland, Anne K.; Elsayed, Gamaleldin F.; Cao, Robin;
-  Pnevmatikakis, Eftychios A.; Latham, Peter E.; Cunningham, John P. (2026) Excitatory
+citation: Najafi, Farzaneh; Elsayed, Gamaleldin F.; Cao, Robin; Pnevmatikakis, Eftychios
+  A.; Latham, Peter E.; Cunningham, John P.; Churchland, Anne K. (2026) Excitatory
   and inhibitory subnetworks are equally selective during decision-making and emerge
   simultaneously during learning (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000016/draft
 contributor:
@@ -48,22 +48,12 @@ contributor:
   name: Najafi, Farzaneh
   roleName:
   - dcite:Author
-  - dcite:ContactPerson
-  schemaKey: Person
-- affiliation:
-  - identifier: https://ror.org/02qz8b764
-    name: Cold Spring Harbor Laboratory
-    schemaKey: Affiliation
-  identifier: 0000-0002-3205-3794
-  includeInCitation: true
-  name: Churchland, Anne K.
-  roleName:
-  - dcite:Author
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/00hj8s172
     name: Columbia University
     schemaKey: Affiliation
+  email: achurchl@cshl.edu
   identifier: 0000-0002-4676-4220
   includeInCitation: true
   name: Elsayed, Gamaleldin F.
@@ -74,6 +64,7 @@ contributor:
   - identifier: https://ror.org/02jx3x895
     name: University College London
     schemaKey: Affiliation
+  identifier: 0000-0002-4676-4220
   includeInCitation: true
   name: Cao, Robin
   roleName:
@@ -108,6 +99,18 @@ contributor:
   name: Cunningham, John P.
   roleName:
   - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02qz8b764
+    name: Cold Spring Harbor Laboratory
+    schemaKey: Affiliation
+  email: achurchl@cshl.edu
+  identifier: 0000-0002-3205-3794
+  includeInCitation: true
+  name: Churchland, Anne K.
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
   schemaKey: Person
 - identifier: https://ror.org/02xhk2825
   includeInCitation: false
