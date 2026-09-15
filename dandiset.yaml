@@ -37,7 +37,8 @@ assetsSummary:
 citation: Najafi, Farzaneh; Elsayed, Gamaleldin F.; Cao, Robin; Pnevmatikakis, Eftychios
   A.; Latham, Peter E.; Cunningham, John P.; Churchland, Anne K. (2026) Excitatory
   and inhibitory subnetworks are equally selective during decision-making and emerge
-  simultaneously during learning (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000016/draft
+  simultaneously during learning (Version 0.260915.2309) [Data set]. DANDI Archive.
+  https://doi.org/10.48324/dandi.000016/0.260915.2309
 contributor:
 - affiliation:
   - identifier: https://ror.org/02qz8b764
@@ -143,6 +144,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2020-03-19T19:10:05.697000+00:00'
+datePublished: '2026-09-15T23:09:47.812282+00:00'
 description: 'This package contains data, in NWB (Neurodata Without Borders) format,
   from the 4 mice included in "Najafi, Farzaneh, Gamaleldin F. Elsayed, Robin Cao,
   Eftychios Pnevmatikakis, Peter E. Latham, John P. Cunningham, and Anne K. Churchland.
@@ -158,13 +160,14 @@ description: 'This package contains data, in NWB (Neurodata Without Borders) for
   time event (e.g. stimulus start, animal choice, etc.) can be found under "modules/
   Trial-based-Segmentation". A jupyter notebook presenting in detail how to work with
   NWB files is provided at https://github.com/ttngu207/najafi-2018-nwb/blob/master/notebooks/Najafi-2018_example.ipynb.'
+doi: 10.48324/dandi.000016/0.260915.2309
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
     url: https://www.cshl.edu/about-us/institutional-animal-care-and-use-committee/
   identifier: Institutional Animal Care and Use Committee of Cold Spring Harbor Laboratory
   schemaKey: EthicsApproval
-id: DANDI:000016/draft
+id: DANDI:000016/0.260915.2309
 identifier: DANDI:000016
 keywords:
 - decision-making
@@ -176,10 +179,22 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000016/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000016/0.260915.2309/assets.yaml
 name: Excitatory and inhibitory subnetworks are equally selective during decision-making
   and emerge simultaneously during learning
 protocol: []
+publishedBy:
+  endDate: '2026-09-15T23:09:47.812282+00:00'
+  id: urn:uuid:257c6af0-2446-42a4-8b36-7e064785a11d
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-09-15T23:09:47.812282+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:89d531e7-11ac-47ac-a09d-446a859f8235
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: doi:10.14224/1.37693
   name: 'CSHL Repository: Excitatory and inhibitory subnetworks during decision-making
@@ -211,6 +226,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000016/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000016/0.260915.2309
+version: 0.260915.2309
 wasGeneratedBy: []
